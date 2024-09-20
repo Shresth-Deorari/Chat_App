@@ -93,6 +93,49 @@
  ![Architecture Diagram](Images/Chat_App_Architecture.png)
 
 
+
+## Why These Libraries?
+
+ ## Backend
+
+ - **bcryptjs**: 
+   - Used for securely hashing passwords before storing them in the database. It ensures that even if the database is compromised, user passwords remain protected.
+  
+ - **jsonwebtoken**: 
+   - Essential for creating and verifying JSON Web Tokens (JWT), which are used for stateless user authentication. This allows users to securely log in and maintain a session without constantly querying the database.
+
+ - **express**: 
+   - A minimal and flexible Node.js web application framework that helps in building APIs quickly and efficiently. It's ideal for setting up the core server logic for the app.
+
+ - **mongoose**: 
+   - An Object Data Modeling (ODM) library for MongoDB, which makes it easier to structure, query, and manage data within MongoDB databases, especially useful for handling complex data relationships like users, messages, and groups.
+
+ - **socket.io**: 
+   - This library is used to enable real-time, bidirectional communication between the client and server. It is crucial for features like real-time chat in group messaging, where users should be notified instantly of new messages.
+
+ ### Frontend
+
+ - **@chakra-ui/react**: 
+   - Chakra UI is used for building accessible and responsive React components with a minimalistic design. It provides a pre-built set of components, helping speed up the UI development process while ensuring a clean, modern look.
+
+ - **axios**: 
+   - A promise-based HTTP client used for making requests from the frontend to the backend (e.g., for sending chat messages, handling user authentication). It simplifies API calls and handles asynchronous operations cleanly.
+
+ - **framer-motion**: 
+   - This library is used for adding animations and smooth transitions in the user interface. It enhances the user experience by making interactions more visually appealing, such as animating messages in the chat window.
+
+ - **react-router-dom**: 
+   - React Router allows for client-side navigation between different pages of the application without reloading the page (e.g., navigating from the login page to the chat window). It’s crucial for maintaining a seamless experience in a single-page application.
+
+ - **react-scrollable-feed**: 
+   - This is used for creating a dynamic, scrollable chat feed, ensuring that new messages are automatically displayed at the bottom of the chat window. It's essential for building a functional and smooth real-time messaging interface.
+
+ - **socket.io-client**: 
+   - The client-side counterpart of Socket.IO, enabling real-time communication between the frontend and the backend. This is key for receiving real-time messages in group chats and keeping the user interface in sync with the server.
+
+
+
+
 ## Demo Images
 
 ### 1) App Opens - Login Page
