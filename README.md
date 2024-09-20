@@ -1,6 +1,10 @@
 # Chat Application
+- Name: Shresth Deorari   
+- University: IIT Patna  
+- Department: Mathematics and Computing
 
-## A real-time group chat application with user authentication and admin features.
+
+## A real-time Group Chat Application With User Authentication And Admin Features.
 
 
 ## Features
@@ -8,7 +12,6 @@
  - User Sign-Up and Sign-In
  - Group Creation and Management
  - Real-Time Messaging
- - File Sharing (Optional)
  - Role-Based Access Control
 
 
@@ -30,7 +33,6 @@
  - express-async-handler: Handles async operations in Express routes.
  - jsonwebtoken: Creates and verifies JSON Web Tokens.
  - mongoose: ODM library for MongoDB, helping structure data.
- - nodemon: Auto-restarts the server when file changes are detected.
  - socket.io: Library for real-time communication.
 
 
