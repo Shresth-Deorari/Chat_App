@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap");
+
+.App {
+  min-height: 100vh;
+  display: flex;
+  background-position: center;
+  background-size: cover;
+  background-color: #1a212d; /* Dark background color */
+}
+
+::-webkit-scrollbar {
+  width: 8px; /* Increased width for better visibility */
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.3); /* Lighter thumb color for contrast */
+  border-radius: 4px; /* Rounded corners for the scrollbar thumb */
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.5); /* Lighter on hover */
+}
