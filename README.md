@@ -90,26 +90,50 @@
 
    
 ## Architecture Diagram
- ![Architecture Diagram](path/to/architecture-diagram.png)
+ ![Architecture Diagram](Images/Chat_App_Architecture.png)
 
 
 ## Demo Images
 
-### User Sign-Up Interface
+### 1) App Opens - Login Page
 
- ![User Sign-Up](path/to/sign-up-image.png)
+ ![User Sign-Up](Images/1_Login_Page.png)
 
-### User Login Interface
+### 2) User Signup Interface
 
- ![User Login](path/to/login-image.png)
+ ![User Login](Images/2_Sign_Up_Page.png)
 
-### Group Chat Interface
+### 3) User Login
 
- ![Group Chat](path/to/chat-image.png)
+ ![Group Chat](Images/3_User_Login.png)
 
-### File Sharing Feature
+### 4) Main Dashboard
 
- ![File Sharing](path/to/file-sharing-image.png)
+ ![File Sharing](Images/4_Dashboard.png)
+
+### 5) Creating a new Group
+
+ ![File Sharing](Images/5_Create_New_Group.png)
+
+### 6) Chat with your friends and colleagues
+
+ ![File Sharing](Images/6_Texting_In_The_Group.png)
+
+### 7) The profile button
+
+ ![File Sharing](Images/7_Profile_Button.png)
+
+### 8) User Profile
+
+ ![File Sharing](Images/8_User_Profile.png)
+
+### 9) Group details
+
+ ![File Sharing](Images/9_Details_Group.png)
+
+### 10) Non-Admin Cannot remove Other people, but can leave.
+
+ ![File Sharing](Images/10_Non_Admin.png)
 
 
 
