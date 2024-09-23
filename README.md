@@ -210,7 +210,7 @@
     - In your MongoDB Atlas dashboard, click on "Connect".
     - Choose "Connect your application".
     - Select the driver and version, then copy the provided connection string.
-    - Replace `PASSWORD` in the connection string with your MongoDB database user's password.
+    - Replace `USERNAME` and `PASSWORD` in the connection string with your MongoDB database username and password.
 
  5. Create a `.env` file in the root directory and set up the following environment variables:
     ```plaintext
