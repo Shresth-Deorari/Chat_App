@@ -266,7 +266,7 @@
  - **User Registration**: Users can sign up by providing their name, email, and password.
  - **User Login**: Returning users can log in using their email and password.
  - **Group Management**: Admins can create and manage groups, while users can send messages and share files in real-time.
- - **Real-Time Notifications**: Users receive instant notifications for new messages and file uploads.
+ - **Real-Time Notifications**: Users receive instant notifications for new messages.
 
    
 ## Contributing
